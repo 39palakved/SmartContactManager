@@ -26,6 +26,6 @@
 *  Cloudinary is used for handling and optimizing media assets.
 
 #Output
+<img src="![Screenshot (59)](https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a)">
 
-![Screenshot (59)](https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a)
 
