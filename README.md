@@ -1,6 +1,7 @@
 #  Smart Contact Manager
 # About
 Key Features<br>
+
 Effortless Contact Management: Add, update, and delete contacts with ease.
 Advanced Search & Filtering: Quickly locate contacts using search and filtering options.
 
