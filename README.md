@@ -17,10 +17,10 @@
 *  Utilize Cloudinary for efficient media management, including profile pictures.
 
 ### **Technology Stack**<br>
-**Frontend**   : Developed with TailwindCSS for a modern, responsive design.
+*  Developed with TailwindCSS for a modern, responsive design.
 
-**Backend**   : Powered by Spring Boot for robust and scalable server-side functionality.
+*  Powered by Spring Boot for robust and scalable server-side functionality.
 
-**Database**   : MySQL ensures reliable and efficient data storage.
-
-**Cloud Integration**   : Cloudinary is used for handling and optimizing media assets.
+* MySQL ensures reliable and efficient data storage.
+* 
+*  Cloudinary is used for handling and optimizing media assets.
