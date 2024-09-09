@@ -37,7 +37,7 @@
 <img src="https://github.com/user-attachments/assets/e7c20b52-ae4f-41fe-8122-e30f911c8289" width="600">
 
 # Vedio<br>
-https://github.com/user-attachments/assets/35410bf7-c1dc-4ce8-9d74-a2816b4d6761"
+https://github.com/user-attachments/assets/35410bf7-c1dc-4ce8-9d74-a2816b4d6761
 
 # Database
 <img src="https://github.com/user-attachments/assets/f15e307f-02fc-49b6-b7eb-485f928f2e15" width="600">
