@@ -26,9 +26,17 @@
 *  Cloudinary is used for handling and optimizing media assets.
 
 # Output<br>
-<img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a" width="500">
-<img src="https://github.com/user-attachments/assets/72e0658b-f58a-436f-ba4c-43e49e41d5d6" width="500">
-<img src="https://github.com/user-attachments/assets/02425578-a559-4fd1-8ad2-e9b4fb1a097c" width="500">
+<img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a" width="600">
+<img src="https://github.com/user-attachments/assets/72e0658b-f58a-436f-ba4c-43e49e41d5d6" width="600">
+<img src="https://github.com/user-attachments/assets/02425578-a559-4fd1-8ad2-e9b4fb1a097c" width="600">
+<img src="https://github.com/user-attachments/assets/fa52f91b-d9ec-4565-b39b-3ccc9e02f180" width="600">
+<img src="https://github.com/user-attachments/assets/5d15f345-7dee-4ed1-a511-9a4278fb77b0" width="600">
+<img src="https://github.com/user-attachments/assets/c7dbac4f-181b-47d2-b625-aee8caeefbff" width="600">
+<img src="https://github.com/user-attachments/assets/aed6da68-7070-4f3c-aaa9-a29549354884" width="600">
+<img src="https://github.com/user-attachments/assets/d0c8cd1e-c4ba-48ce-a5d4-c3ade48c71c4" width="600">
+
+
+
 
 
 
