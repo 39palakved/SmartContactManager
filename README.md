@@ -27,9 +27,8 @@
 
 # Output<br>
 <img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a" width="500">
-<img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a](https://github.com/user-attachments/assets/72e0658b-f58a-436f-ba4c-43e49e41d5d6" width="500">
-<img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a" width="500">
-<img src="https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a" width="500">
+<img src="https://github.com/user-attachments/assets/72e0658b-f58a-436f-ba4c-43e49e41d5d6" width="500">
+
 
 
 
