@@ -22,5 +22,10 @@
 *  Powered by Spring Boot for robust and scalable server-side functionality.
 
 * MySQL ensures reliable and efficient data storage.
-* 
+ 
 *  Cloudinary is used for handling and optimizing media assets.
+
+#Output
+
+![Screenshot (59)](https://github.com/user-attachments/assets/f62e3958-7da8-448b-81a6-9a3a3fe6b82a)
+
