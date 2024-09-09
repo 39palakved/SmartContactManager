@@ -1,5 +1,7 @@
 #  Smart Contact Manager
 ## About
+ Smart Contact Manager (SCM) is a comprehensive web application designed to simplify contact management with an intuitive and modern interface. Leveraging cutting-edge technologies, SCM offers a range of features to enhance the way you handle your contacts.
+
 ### **Key Features**<br>
 
 Effortless Contact Management: Add, update, and delete contacts with ease.
