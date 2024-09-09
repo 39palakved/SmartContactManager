@@ -1,14 +1,18 @@
 #  Smart Contact Manager
 ## About
- Smart Contact Manager (SCM) is a comprehensive web application designed to simplify contact management with an intuitive and modern interface. Leveraging cutting-edge technologies, SCM offers a range of features to enhance the way you handle your contacts.
+ Smart Contact Manager (SCM) is a comprehensive web application designed to simplify contact management with an intuitive and modern interface.
+ Leveraging cutting-edge technologies, SCM offers a range of features to enhance the way you handle your contacts.
 
 ### **Key Features**<br>
 
-Effortless Contact Management: Add, update, and delete contacts with ease.
-Advanced Search & Filtering: Quickly locate contacts using search and filtering options.
+ *Manage Contacts*:  Add, edit, and delete contacts effortlessly.
 
-Seamless Import/Export: Import and export your contacts in multiple formats for flexibility.
-Cross-Device Synchronization: Keep your contact list up-to-date across all your devices.
+*View Contacts*: Browse and search through your contact list with ease.
 
-Secure Data Handling: Your contact information is safeguarded with advanced encryption.
-Customizable Organization: Use tags and categories to organize contacts in a way that suits you best.
+*Profile Management*: View and edit your personal profile to keep your information up-to-date.
+
+*Responsive Design*: Built with TailwindCSS for a sleek and responsive user experience.
+
+*Secure Storage*: Store and manage contact information securely with MySQL.
+
+*Cloud Integration*: Utilize Cloudinary for efficient media management, including profile pictures.
