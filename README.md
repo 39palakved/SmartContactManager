@@ -4,18 +4,17 @@
  Leveraging cutting-edge technologies, SCM offers a range of features to enhance the way you handle your contacts.
 
 ### **Key Features**<br>
+ * Add, edit, and delete contacts effortlessly.
+ 
+*  Browse and search through your contact list with ease.
 
- **Manage Contacts**   :  Add, edit, and delete contacts effortlessly.
+*  View and edit your personal profile to keep your information up-to-date.
 
-**View Contacts**   : Browse and search through your contact list with ease.
+*  Built with TailwindCSS for a sleek and responsive user experience.
 
-**Profile Management**  : View and edit your personal profile to keep your information up-to-date.
+*  Store and manage contact information securely with MySQL.
 
-**Responsive Design**  : Built with TailwindCSS for a sleek and responsive user experience.
-
-**Secure Storage**  : Store and manage contact information securely with MySQL.
-
-*Cloud Integration*  : Utilize Cloudinary for efficient media management, including profile pictures.
+*  Utilize Cloudinary for efficient media management, including profile pictures.
 
 ### **Technology Stack**<br>
 **Frontend**   : Developed with TailwindCSS for a modern, responsive design.
