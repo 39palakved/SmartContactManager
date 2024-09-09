@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html  lang="en"  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title data-th-text="${loggedinuser.name}">dashboard Page</title>
+</head>
+<body>
+    
+    <div id="content" >
+        <div th:if="${loggedinuser}">
+            <div data-th-replace="~{user/sidebar::sidebar}"></div>
+         </div>
+    <div  class="sm:pl-64 pt-20" style="height:1000px;">
+        <div class="font-bold text-lg text-center">Welcome to DashBoard Page</div>
+        <div class=" text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, quae. Fugit, excepturi reprehenderit enim consectetur natus repellat veritatis vitae necessitatibus reiciendis illo omnis nihil assumenda corporis deserunt dolore molestias tenetur.</div>
+    </div>
+  </div>
+    <script>
+        console.log("profile page");
+    </script>
+    
+</body>
+</html>

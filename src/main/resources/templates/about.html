@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html  lang="en"  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title>About Page</title>
+</head>
+<body>
+    <div id="content">
+       <!-- Main content area -->
+    <div class="max-w-5xl mx-auto p-6 mt-16">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-900 dark:text-white">About Smart Contact Manager</h1>
+            <p class="text-lg text-gray-700 dark:text-gray-300 mt-4">Effortlessly manage your contacts with cloud-based solutions.</p>
+        </header>
+
+        <!-- Section 1: Introduction -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-orange-500 dark:text-orange-400 mb-4">Introduction</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300">The Contact Book project, developed by Palak Ved, is a powerful solution designed to simplify the management of contacts. Whether you're adding new contacts, syncing them with cloud storage, or updating their information, our platform ensures that all your contact information is easily accessible and securely stored in the cloud.</p>
+        </section>
+
+        <!-- Section 2: Key Features -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-green-500 dark:text-green-400 mb-4">Key Features</h2>
+            <ul class="list-disc ml-6 text-lg text-gray-700 dark:text-gray-300">
+                <li>Add, edit, and delete contacts easily</li>
+                <li>Sync contact details and images with the cloud (via Cloudinary)</li>
+                <li>View all your contacts in a structured, searchable format</li>
+                <li>Fully responsive design for mobile, tablet, and desktop</li>
+                <li>Secure data storage with integration into the cloud</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Benefits -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-pink-500 dark:text-pink-400 mb-4">Benefits</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300">Our Contact Book solution offers the best of both worlds—simplicity and security. It’s perfect for users who want quick access to their contacts across multiple devices, with all data securely stored in the cloud. The interface is user-friendly, making it ideal for both personal and professional use.</p>
+        </section>
+
+        <!-- Section 4: Technology Stack -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-blue-500 dark:text-blue-400 mb-4">Technology Stack</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300">This project leverages cutting-edge technologies to provide a seamless and secure experience:</p>
+            <ul class="list-disc ml-6 text-lg text-gray-700 dark:text-gray-300">
+                <li><strong>Spring Boot & Java:</strong> Power the back-end with robust and scalable services.</li>
+                <li><strong>MySQL:</strong> Manage and store contact information in a relational database.</li>
+                <li><strong>Cloudinary:</strong> Cloud service for secure storage and management of contact images.</li>
+                <li><strong>Tailwind CSS:</strong> Modern and responsive design for a great user experience on any device.</li>
+            </ul>
+        </section>
+
+        <!-- Section 5: Future Goals -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-semibold text-purple-500 dark:text-purple-400 mb-4">Future Goals</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300">We’re committed to constantly improving the Contact Book platform. Some upcoming features include:</p>
+            <ul class="list-disc ml-6 text-lg text-gray-700 dark:text-gray-300">
+                <li>Mobile app version for Android and iOS</li>
+                <li>Integration with third-party services like Google Contacts and Microsoft Outlook</li>
+                <li>Advanced contact filtering and tagging system</li>
+                <li>Improved analytics and insights for professional users</li>
+            </ul>
+        </section>
+
+        <!-- Call to Action: Contact -->
+        <section class="text-center mt-12">
+            <h2 class="text-3xl font-semibold text-purple-500 dark:text-purple-400 mb-4">Start Managing Your Contacts Today!</h2>
+            <p class="text-lg text-gray-700 dark:text-gray-300 mb-6">Ready to simplify your contact management? Sign up and start using the Contact Book now!</p>
+            <a data-th-href="@{/register}" class="bg-purple-500 dark:bg-purple-400 hover:bg-purple-600 dark:hover:bg-purple-500 text-white font-bold py-2 px-6 rounded">Sign Up Now</a>
+        </section>
+    </div>
+
+    </div>
+    <script>
+        console.log("about page");
+    </script>
+</body>
+</html>

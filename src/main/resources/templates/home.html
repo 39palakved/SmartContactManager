@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html  lang="en"  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <div id="content">
+       <!-- Hero Section -->
+    <section class="bg-green-600 dark:bg-blue-700 text-white py-20">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to SCM</h1>
+            <p class="text-lg mb-8">Manage your contacts easily and securely . Access them anytime, anywhere.</p>
+            <div class="space-x-4">
+                <a data-th-href="@{/register}" class="bg-white text-blue-500 font-bold py-2 px-6 rounded-lg hover:bg-gray-100">Sign Up</a>
+                <a data-th-href="@{/login}" class="bg-transparent border-2 border-white py-2 px-6 rounded-lg hover:bg-white hover:text-blue-500">Sign In</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">Why Use SCM?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-blue-500 dark:text-blue-400 mb-4">Secure Cloud Storage</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Your contacts are stored securely , so you can access them anywhere without worry.</p>
+                </div>
+                <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-green-500 dark:text-green-400 mb-4">Easy Contact Management</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Add, edit, and manage your contacts with a simple, user-friendly interface.</p>
+                </div>
+                <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-orange-500 dark:text-orange-400 mb-4">Cross-Device Sync</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Keep your contacts in sync across all your devices, from mobile to desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-gray-200 dark:bg-gray-800">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">How It Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold text-blue-500 dark:text-blue-400">Step 1</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Sign up and create your account.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-green-500 dark:text-green-400">Step 2</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Add and sync your contacts to the cloud.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-orange-500 dark:text-orange-400">Step 3</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Manage, edit, and access your contacts from any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-16">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">The Benefits of Using Contact Book</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold text-green-500 dark:text-green-400 mb-2">Secure Data</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Your contacts are stored with industry-standard encryption, ensuring your data stays safe.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-500 dark:text-blue-400 mb-2">Accessible Anywhere</h3>
+                    <p class="text-gray-700 dark:text-gray-300">No matter where you are, you can easily access your contacts on any device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-16 bg-blue-500 dark:bg-blue-700 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Get Started Today!</h2>
+            <p class="text-lg mb-8">Start organizing your contacts with ease. Sign up now to access your secure, cloud-based contact management platform.</p>
+            <a data-th-href="@{/register}" class="bg-white text-blue-500 font-bold py-2 px-6 rounded-lg hover:bg-gray-100">Sign Up Now</a>
+        </div>
+    </section>
+    </div>
+    <script>
+        console.log("home page");
+    </script>
+</body>
+</html>

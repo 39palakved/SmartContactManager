@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html  lang="en"  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+<head>
+    <title data-th-text="${loggedinuser.name}">Profile Page</title>
+</head>
+<body>
+    
+    <div id="content">
+        <div th:if="${loggedinuser}">
+            <div data-th-replace="~{user/sidebar::sidebar}"></div>
+         </div>
+    <div  class="sm:pl-64 pt-20" style="height:1000px;">
+       
+        <div class="font-bold text-2xl text-center">Welcome to Profile Page</div>
+        <div class="  flex justify-center p-6  items-center ">
+            <div class=" rounded overflow-hidden shadow-lg p-6   bg-white dark:bg-gray-800">
+                <div class="flex justify-center">
+                    <img class="w-24 h-24 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_SzFavKVRh2U9q6IQ5UbBhE4wUDWHZV3Rw&s" alt="Profile Photo">
+                </div>
+                <div class="px-6 py-4 text-center">
+                    <div class="font-bold text-2xl mb-2 text-gray-900 dark:text-gray-100" data-th-text="${loggedinuser.name}"></div>
+                    <p class="text-gray-700 dark:text-gray-300 text-base"data-th-text="${loggedinuser.PhoneNumber}" ><strong>Phone:</strong></p>
+                    <p class="text-gray-700 dark:text-gray-300 text-base"data-th-text="${loggedinuser.email}" ><strong>email:</strong></p>
+                    <p class="text-gray-700 dark:text-gray-300 text-xl text-base" data-th-text="${loggedinuser.about}"><strong>About:</strong></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+  </div>
+    <script>
+        console.log("profile page");
+    </script>
+    
+</body>
+</html>
